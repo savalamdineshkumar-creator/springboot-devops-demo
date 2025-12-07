@@ -56,13 +56,11 @@ phases:
   install:
     runtime-versions:
       java: corretto17
-
   build:
     commands:
       - echo "Building Spring Boot app"
       - mvn -Dmaven.test.skip=true package
       - cp target/*.jar app.jar
-
 artifacts:
   files:
     - app.jar
