@@ -51,7 +51,7 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 }
-version: 0.2
+version: "0.2"
 
 phases:
   install:
@@ -68,3 +68,4 @@ artifacts:
   files:
     - app.jar
   discard-paths: yes
+
