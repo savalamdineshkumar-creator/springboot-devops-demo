@@ -52,7 +52,6 @@ public class Application {
     }
 }
 version: "0.2"
-
 phases:
   install:
     runtime-versions:
@@ -68,4 +67,5 @@ artifacts:
   files:
     - app.jar
   discard-paths: yes
+
 
